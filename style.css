@@ -1,6 +1,6 @@
 * {
     margin: 0;
-    padding: 0
+    padding: 0;
 }
 
 html,
@@ -19,12 +19,10 @@ body {
     color: #fff !important;
 }
 
-
 body {
     overflow-x: hidden;
     position: relative;
     font-family: poppins;
-    /* font-family: poppins; */
 }
 
 .header-bg-toggle {
@@ -79,8 +77,6 @@ header {
 .sun-moon {
     display: none;
 }
-
-
 .navbar .container-fluid {
     box-sizing: border-box;
     display: flex;
@@ -199,7 +195,6 @@ header {
     gap: 2.8rem;
 }
 
-
 /* -------   first-sec  -------------- */
 
 .first-sec {
@@ -238,7 +233,6 @@ header {
 
 .first-sec .container .title .links a i:hover {
     transition: all 0.3s ease-in-out;
-
     font-size: 2.3rem;
 }
 
@@ -320,8 +314,6 @@ header {
     margin: 6rem 3rem 0rem 3rem;
     padding: 3rem;
 }
-
-#about .container {}
 
 .container h1 {
     font-weight: 900;
@@ -670,10 +662,7 @@ p {
     margin: 0px 19px 0px 0px;
     color: black;
     box-shadow: 0 0 11px #6767f4;
-
 }
-
-.contact .box .icon i {}
 
 .contact .box .box-info {
     display: flex;
@@ -729,8 +718,6 @@ footer {
     font-weight: 600;
 }
 
-.copyright ul {}
-
 .copyright ul li {
     transition: 0.4s;
 }
@@ -780,97 +767,6 @@ footer {
     height: 45px;
     width: 45px;
     font-size: 25px;
-    /* padding: 3px 0px 0px 10px; */
     border-radius: 50%;
     text-align: center;
 }
-
-
-
-
-/* 
- */
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* 
-.book {
-    position: relative;
-    border-radius: 10px;
-    width: 100%;
-    height: 300px;
-    background-color: #fff;
-    -webkit-box-shadow: 1px 1px 12px #000;
-    box-shadow: 1px 1px 12px #000;
-    -webkit-transform: preserve-3d;
-    -ms-transform: preserve-3d;
-    transform: preserve-3d;
-    -webkit-perspective: 2000px;
-    perspective: 2000px;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
-    align-items: center;
-    -webkit-box-pack: center;
-    -ms-flex-pack: center;
-    justify-content: center;
-    color: #000;
-  }
-  
-  .cover {
-    top: 0;
-    position: absolute;
-    background-color: #fff;
-    width: 100%;
-    height: 100%;
-    border-radius: 10px;
-    cursor: pointer;
-    -webkit-transition: all 0.5s;
-    transition: all 0.5s;
-    -webkit-transform-origin: 0;
-    -ms-transform-origin: 0;
-    transform-origin: 0;
-    -webkit-box-shadow: 1px 1px 12px #000;
-    box-shadow: 1px 1px 12px #000;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
-    align-items: center;
-    -webkit-box-pack: center;
-    -ms-flex-pack: center;
-    justify-content: center;
-  }
-  
-  .book:hover .cover {
-    -webkit-transition: all 0.5s;
-    transition: all 0.5s;
-    -webkit-transform: rotatey(-80deg);
-    -ms-transform: rotatey(-80deg);
-    transform: rotatey(-80deg);
-  }
-  
-
-
-
-*/
