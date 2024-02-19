@@ -1,24 +1,37 @@
 @media (min-width:320px) and (max-width:480px) {
+
     html,
     body {
         width: 100% !important;
         overflow-x: hidden !important;
     }
-    .sun-moon{
+
+    .sun-moon {
         display: block;
-      }
+    }
+
     .navbar-nav {
         gap: 0px;
     }
+
+    .navbar-collapse {
+        background: #e0e0e0;
+        padding: 0 40px;
+        opacity: 0.9;
+        border-radius: 3px;
+    }
+
     .first-sec .container .title .links {
         text-align: center;
     }
-    .first-sec .container .row{
+
+    .first-sec .container .row {
         flex-direction: column-reverse;
     }
+
     .first-sec .container .title {
         padding: 0px 14px 0px 18px;
-
+        margin-top: 10rem;
     }
 
     .first-sec .container .title h1 {
@@ -36,8 +49,7 @@
 
     #skill {
         margin: 2rem 1.6rem 0rem 1.6rem;
-        padding: 2rem 1rem 2rem;
-
+        padding: 2rem 0rem 2rem;
     }
 
     .main-img {
@@ -59,8 +71,8 @@
     }
 
     #experience {
-        margin: 2rem 1.6rem 0rem 1.6rem;
-        padding: 0PX;
+        margin: 5rem 1.6rem 7rem 1.6rem;
+        padding: 0px;
     }
 
     .experience .col-lg-2 {
@@ -85,7 +97,7 @@
     }
 
     #contact {
-        margin: 3rem 0rem 0rem 0rem;
+        margin: 4rem 0rem 0rem 0rem;
         padding: 0;
     }
 
@@ -107,26 +119,39 @@
 }
 
 @media (min-width:481px) and (max-width:600px) {
+
     html,
     body {
         width: 100% !important;
         overflow-x: hidden !important;
     }
-    .sun-moon{
+
+    .sun-moon {
         display: block;
-      }
+    }
+
+   .navbar-collapse {
+        background: #e0e0e0;
+        padding: 0 40px;
+        opacity: 0.9;
+        border-radius: 3px;
+    }
+
     .navbar-nav {
         gap: 0px;
     }
+
     .first-sec .container .title .links {
         text-align: center;
     }
-    .first-sec .container .row{
+
+    .first-sec .container .row {
         flex-direction: column-reverse;
     }
+
     .first-sec .container .title {
         padding: 0px 14px 0px 18px;
-
+        margin-top: 10rem;
     }
 
     .first-sec .container .title h1 {
@@ -170,9 +195,11 @@
         margin: 2rem 1.6rem 0rem 1.6rem;
         padding: 0PX;
     }
+
     #experience h1 {
         padding: 2rem 0px 1rem 0px;
     }
+
     .experience .col-lg-2 {
         text-align: center;
     }
@@ -217,32 +244,45 @@
 }
 
 @media (min-width:601px) and (max-width:768px) {
+
     html,
     body {
         width: 100% !important;
         overflow-x: hidden !important;
     }
-    .sun-moon{
+
+    .sun-moon {
         display: block;
-      }
+    }
+
+   .navbar-collapse {
+        background: #e0e0e0;
+        padding: 0 40px;
+        opacity: 0.9;
+        border-radius: 3px;
+    }
+
     .navbar-nav {
         gap: 0px;
     }
+
     .first-sec .container .title .links {
         text-align: center;
     }
-    .first-sec .container .row{
+
+    .first-sec .container .row {
         flex-direction: column-reverse;
     }
+
     .first-sec .container .title {
         padding: 0px 14px 0px 18px;
-
+        margin-top: 10rem;
     }
 
     .first-sec .container .title h1 {
         font-size: 3.1rem;
     }
-   
+
     #about {
         margin: 1rem 1rem 1rem 1rem;
         padding: 2rem 1rem 2rem;
@@ -278,9 +318,11 @@
         margin: 2rem 1.6rem 0rem 1.6rem;
         padding: 0PX;
     }
+
     #experience h1 {
         padding: 2rem 0px 1rem 0px;
     }
+
     .experience .col-lg-2 {
         text-align: center;
     }
@@ -325,26 +367,39 @@
 }
 
 @media (min-width:769px) and (max-width:950px) {
+
     html,
     body {
         width: 100% !important;
         overflow-x: hidden !important;
     }
-    .sun-moon{
+
+   .navbar-collapse {
+        background: #e0e0e0;
+        padding: 0 40px;
+        opacity: 0.9;
+        border-radius: 3px;
+    }
+
+    .sun-moon {
         display: block;
-      }
+    }
+
     .navbar-nav {
         gap: 0px;
     }
+
     .first-sec .container .title .links {
         text-align: center;
     }
-    .first-sec .container .row{
+
+    .first-sec .container .row {
         flex-direction: column-reverse;
     }
+
     .first-sec .container .title {
         padding: 0px 14px 0px 18px;
-
+        margin-top: 10rem;
     }
 
     .first-sec .container .title h1 {
@@ -386,9 +441,11 @@
         margin: 2rem 1.6rem 0rem 1.6rem;
         padding: 0PX;
     }
+
     #experience h1 {
         padding: 2rem 0px 1rem 0px;
     }
+
     .experience .col-lg-2 {
         text-align: center;
     }
@@ -431,21 +488,37 @@
     }
 
 }
+
+@media (min-width:950px) and (max-width:990px) {
+   .navbar-collapse {
+        background: #e0e0e0;
+        padding: 0 40px;
+        opacity: 0.9;
+        border-radius: 3px;
+    }
+
+}
+
 @media (min-width:951px) and (max-width:1022px) {
+
     html,
     body {
         width: 100% !important;
         overflow-x: hidden !important;
     }
-    .sun-moon{
+
+    .sun-moon {
         display: block;
-      }
+    }
+
     .navbar-nav {
         gap: 0px;
     }
-    .first-sec .container .row{
+
+    .first-sec .container .row {
         flex-direction: column;
     }
+
     .first-sec .container .title {
         padding: 0px 14px 0px 18px;
 
@@ -490,9 +563,11 @@
         margin: 2rem 1.6rem 0rem 1.6rem;
         padding: 0PX;
     }
+
     #experience h1 {
         padding: 2rem 0px 1rem 0px;
     }
+
     .experience .col-lg-2 {
         text-align: center;
     }
@@ -537,16 +612,17 @@
 }
 
 @media (min-width:991px) and (max-width:1022px) {
-    
-    .sun-moon{
+
+    .sun-moon {
         display: block;
         position: absolute;
         right: 4%;
         top: 23%;
     }
 }
+
 @media only screen and (min-width: 1022px) {
-    .sun-moon{
+    .sun-moon {
         display: block;
         position: absolute;
         right: 4%;
